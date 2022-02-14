@@ -169,9 +169,7 @@ p#id-selector-2 {
 .min-height-150 { height: 150px; }
 
 
-.grid-row {
-    clear: both;
-}
+.grid-row { clear: both;}
 
 .grid-col-half-page {
     width: 50%;

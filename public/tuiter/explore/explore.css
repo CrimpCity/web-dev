@@ -1,0 +1,18 @@
+/* Global */
+.bg-color { background-color: black; }
+.left {float: left}
+.right {float: right}
+.clear{clear:both;}
+.pos-abs {position: absolute}
+.pos-relative {position: relative}
+
+/* Part A */
+/* Dark Gray */
+/* .bg-color-search { background-color: rgb(33,35,39);}  */
+.bg-color-search { background-color: darkgray;}
+.text-color-search { color: white; }
+.rounded-corners-search {border-radius: 8px; }
+.pad-all-search { margin: 16px; }
+.pad-left-search {padding-left: 16px;}
+.pad-right-search {padding-right: 16px;}
+
