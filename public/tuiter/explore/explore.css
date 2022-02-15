@@ -121,10 +121,34 @@ a.no-formatting {text-decoration: none; }
     right:16px;
     vertical-align: middle;}
 
+img.rounded {border-radius: 15%;}
 /* TEXT  */
 
 
 
 
+/***********************************    Part E    *************************************/
+/* COLOR */
+.text-color-live-trend { color: lightgray;}
+
+/* PADDING */
+.pad-left-bottom-right-trending {     
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;}
+.pad-left-trending {padding-left: 16px;}
+.border-padding-top-trending{padding-top: 48px;}
+
+/* MARGINS */
+.margin-right-trending { margin-right: 16px; }
+
+/* SIZE, POSITION, ALIGNMENT, BORDERS */
+.pos-abs-trend-img {
+    position: absolute;
+    right:16px;
+    vertical-align: middle;}
+
+img.rounded {border-radius: 15%;}
+/* TEXT  */
 
 
