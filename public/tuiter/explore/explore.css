@@ -45,4 +45,46 @@
 
 
 /***********************************    Part B    *************************************/
+/* COLOR */
+.bg-color-links { background-color: rgb(33,35,39);} 
+.text-highlight-color-links { color: rgb(29,161,242);} 
+.text-color-links { color: rgb(110, 118, 125);}
+
+/* .text-color-links { color: white; }
+.links-bar-color{
+    background-color: darkgray;
+    color: white;
+} */
+
+/* PADDING */
+.pad-top-links {padding-top: 24px;}
+.pad-all-links { padding: 16px; }
+
+/* MARGINS */
+
+/* SIZE, POSITION, ALIGNMENT, BORDERS */
+.font-size-links { font-size: 15px; }
+.container-equal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border-bottom-highlight-link{
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+.border-bottom-default-link{
+    border-bottom-color: rgb(110, 118, 125);
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+} 
+.border-padding-top{padding-top: 0px;}
+
+/* TEXT  */
+a.no-formatting {text-decoration: none; }
+
+
 
