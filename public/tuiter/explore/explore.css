@@ -1,18 +1,48 @@
-/* Global */
+/***********************************    GLOBAL    *************************************/
 .bg-color { background-color: black; }
 .left {float: left}
 .right {float: right}
 .clear{clear:both;}
-.pos-abs {position: absolute}
-.pos-relative {position: relative}
+.container {
+    display: flex;
+    align-items: center;
+}
 
-/* Part A */
-/* Dark Gray */
+/***********************************    Part A    *************************************/
+/* COLOR */
 /* .bg-color-search { background-color: rgb(33,35,39);}  */
 .bg-color-search { background-color: darkgray;}
 .text-color-search { color: white; }
-.rounded-corners-search {border-radius: 8px; }
-.pad-all-search { margin: 16px; }
+.search-bar-color{
+    background-color: darkgray;
+    color: white;
+}
+
+/* PADDING */
+.pad-top-explore {padding-top: 8px;}
+.pad-all-search {
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
 .pad-left-search {padding-left: 16px;}
 .pad-right-search {padding-right: 16px;}
+
+/* MARGINS */
+.margin-right { margin-right: 16px; }
+
+
+/* SIZE, POSITION, ALIGNMENT, BORDERS */
+.search-bar-width{width: 90%;}
+.rounded-corners-search {border-radius: 24px; }
+
+.pos-abs-gear {
+    position: absolute;
+    right:12px;
+    vertical-align: middle;}
+
+
+
+/***********************************    Part B    *************************************/
 
