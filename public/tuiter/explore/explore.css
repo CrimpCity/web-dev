@@ -50,12 +50,6 @@
 .text-highlight-color-links { color: rgb(29,161,242);} 
 .text-color-links { color: rgb(110, 118, 125);}
 
-/* .text-color-links { color: white; }
-.links-bar-color{
-    background-color: darkgray;
-    color: white;
-} */
-
 /* PADDING */
 .pad-top-links {padding-top: 24px;}
 .pad-all-links { padding: 16px; }
@@ -85,6 +79,52 @@
 
 /* TEXT  */
 a.no-formatting {text-decoration: none; }
+
+
+
+
+
+/***********************************    Part C    *************************************/
+/* COLOR */
+.text-color-trending { color: rgb(110, 118, 125);}
+.text-color-title { color: white; }
+
+/* PADDING */
+.border-padding-bottom-trend{padding-bottom: 16px;}
+
+/* MARGINS */
+.margin-top-trending { margin-top: -16px; }
+
+/* SIZE, POSITION, ALIGNMENT, BORDERS */
+.font-size-suggested-trending { font-size: 13px; }
+.font-size-suggested-title { font-size: 16px; }
+/* TEXT  */
+
+
+
+/***********************************    Part D    *************************************/
+/* COLOR */
+
+/* PADDING */
+.pad-left-bottom-right-trending {     
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;}
+.pad-left-trending {padding-left: 16px;}
+
+/* MARGINS */
+.margin-right-trending { margin-right: 16px; }
+
+/* SIZE, POSITION, ALIGNMENT, BORDERS */
+.pos-abs-trend-img {
+    position: absolute;
+    right:16px;
+    vertical-align: middle;}
+
+/* TEXT  */
+
+
+
 
 
 
