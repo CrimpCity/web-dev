@@ -1,9 +1,9 @@
 /***********************************    GLOBAL    *************************************/
-.bg-color { background-color: black; }
-.left {float: left}
-.right {float: right}
-.clear{clear:both;}
-.container {
+.wd-bg-color { background-color: black; }
+.wd-left {float: left}
+.wd-right {float: right}
+.wd-clear{clear:both;}
+.wd-container {
     display: flex;
     align-items: center;
 }
@@ -11,33 +11,33 @@
 /***********************************    Part A    *************************************/
 /* COLOR */
 /* .bg-color-search { background-color: rgb(33,35,39);}  */
-.bg-color-search { background-color: darkgray;}
-.text-color-search { color: white; }
-.search-bar-color{
+.wd-bg-color-search { background-color: darkgray;}
+.wd-text-color-search { color: white; }
+.wd-search-bar-color{
     background-color: darkgray;
     color: white;
 }
 
 /* PADDING */
-.pad-top-explore {padding-top: 8px;}
-.pad-all-search {
+.wd-pad-top-explore {padding-top: 8px;}
+.wd-pad-all-search {
     padding-top: 6px;
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 6px;
 }
-.pad-left-search {padding-left: 16px;}
-.pad-right-search {padding-right: 16px;}
+.wd-pad-left-search {padding-left: 16px;}
+.wd-pad-right-search {padding-right: 16px;}
 
 /* MARGINS */
-.margin-right { margin-right: 16px; }
+.wd-margin-right { margin-right: 16px; }
 
 
 /* SIZE, POSITION, ALIGNMENT, BORDERS */
-.search-bar-width{width: 90%;}
-.rounded-corners-search {border-radius: 24px; }
+.wd-search-bar-width{width: 90%;}
+.wd-rounded-corners-search {border-radius: 24px; }
 
-.pos-abs-gear {
+.wd-pos-abs-gear {
     position: absolute;
     right:12px;
     vertical-align: middle;}
@@ -46,39 +46,39 @@
 
 /***********************************    Part B    *************************************/
 /* COLOR */
-.bg-color-links { background-color: rgb(33,35,39);} 
-.text-highlight-color-links { color: rgb(29,161,242);} 
-.text-color-links { color: rgb(110, 118, 125);}
+.wd-bg-color-links { background-color: rgb(33,35,39);} 
+.wd-text-highlight-color-links { color: rgb(29,161,242);} 
+.wd-text-color-links { color: rgb(110, 118, 125);}
 
 /* PADDING */
-.pad-top-links {padding-top: 24px;}
-.pad-all-links { padding: 16px; }
+.wd-pad-top-links {padding-top: 24px;}
+.wd-pad-all-links { padding: 16px; }
 
 /* MARGINS */
 
 /* SIZE, POSITION, ALIGNMENT, BORDERS */
-.font-size-links { font-size: 15px; }
-.container-equal {
+.wd-font-size-links { font-size: 15px; }
+.wd-container-equal {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.border-bottom-highlight-link{
+.wd-border-bottom-highlight-link{
     border-bottom-color: rgb(29,161,242);
     border-bottom-style: solid;
     border-bottom-width: 8px;
 }
 
-.border-bottom-default-link{
+.wd-border-bottom-default-link{
     border-bottom-color: rgb(110, 118, 125);
     border-bottom-style: solid;
     border-bottom-width: 8px;
 } 
-.border-padding-top{padding-top: 0px;}
+.wd-border-padding-top{padding-top: 0px;}
 
 /* TEXT  */
-a.no-formatting {text-decoration: none; }
+a.wd-no-formatting {text-decoration: none; }
 
 
 
@@ -86,18 +86,18 @@ a.no-formatting {text-decoration: none; }
 
 /***********************************    Part C    *************************************/
 /* COLOR */
-.text-color-trending { color: rgb(110, 118, 125);}
-.text-color-title { color: white; }
+.wd-text-color-trending { color: rgb(110, 118, 125);}
+.wd-text-color-title { color: white; }
 
 /* PADDING */
-.border-padding-bottom-trend{padding-bottom: 16px;}
+.wd-border-padding-bottom-trend{padding-bottom: 16px;}
 
 /* MARGINS */
-.margin-top-trending { margin-top: -16px; }
+.wd-margin-top-trending { margin-top: -16px; }
 
 /* SIZE, POSITION, ALIGNMENT, BORDERS */
-.font-size-suggested-trending { font-size: 13px; }
-.font-size-suggested-title { font-size: 16px; }
+.wd-font-size-suggested-trending { font-size: 13px; }
+.wd-font-size-suggested-title { font-size: 16px; }
 /* TEXT  */
 
 
@@ -106,22 +106,22 @@ a.no-formatting {text-decoration: none; }
 /* COLOR */
 
 /* PADDING */
-.pad-left-bottom-right-trending {     
+.wd-pad-left-bottom-right-trending {     
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 16px;}
-.pad-left-trending {padding-left: 16px;}
+.wd-pad-left-trending {padding-left: 16px;}
 
 /* MARGINS */
-.margin-right-trending { margin-right: 16px; }
+.wd-margin-right-trending { margin-right: 16px; }
 
 /* SIZE, POSITION, ALIGNMENT, BORDERS */
-.pos-abs-trend-img {
+.wd-pos-abs-trend-img {
     position: absolute;
     right:16px;
     vertical-align: middle;}
 
-img.rounded {border-radius: 15%;}
+img.wd-rounded {border-radius: 15%;}
 /* TEXT  */
 
 
@@ -129,24 +129,24 @@ img.rounded {border-radius: 15%;}
 
 /***********************************    Part E    *************************************/
 /* COLOR */
-.text-color-live-trend { color: lightgray;}
+.wd-text-color-live-trend { color: lightgray;}
 
 /* PADDING */
-.pad-left-bottom-right-trending {     
+.wd-pad-left-bottom-right-trending {     
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 16px;}
-.pad-left-trending {padding-left: 16px;}
-.border-padding-top-trending{padding-top: 48px;}
+.wd-pad-left-trending {padding-left: 16px;}
+.wd-border-padding-top-trending{padding-top: 48px;}
 
 /* MARGINS */
-.margin-right-trending { margin-right: 16px; }
+.wd-margin-right-trending { margin-right: 16px; }
 
 /* SIZE, POSITION, ALIGNMENT, BORDERS */
-.pos-abs-trend-img {
+.wd-pos-abs-trend-img {
     position: absolute;
     right:16px;
     vertical-align: middle;}
 
-img.rounded {border-radius: 15%;}
+img.wd-rounded {border-radius: 15%;}
 /* TEXT  */
