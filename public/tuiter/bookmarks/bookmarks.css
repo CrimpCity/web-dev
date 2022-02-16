@@ -1,0 +1,84 @@
+/***********************************    GLOBAL    *************************************/
+.wd-bg-color { background-color: black; }
+.wd-left {float: left}
+.wd-right {float: right}
+.wd-clear{clear:both;}
+.wd-container-top {
+    display: flex;
+    align-items: top;
+}
+
+.wd-container-center {
+    display: flex;
+    align-items: center;
+}
+
+.wd-border-color { color: rgb(47, 51, 54);} 
+
+/***********************************    Part A    *************************************/
+/* COLOR */
+.wd-title-color { color: white;}
+.wd-handle-color { color: lightgray;}
+
+/* PADDING and MARGINS */
+.wd-pad-left-top {     
+    padding-left: 16px;
+    padding-top: 12px}
+.wd-pad-top-handle { padding-top: 12px;}
+
+/* TEXT  */
+.wd-font-size-title { font-size: 20px;}
+.wd-bold-title { font-weight: 750;}
+.wd-font-size-handle { font-size: 13px; }
+
+/* BORDERS */
+.wd-border-handle{
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+} 
+
+
+/*********************************    Part B-C-D    ***********************************/
+/* COLOR */
+.wd-author-color { color: white;}
+.wd-author-handle-color { color: lightgray;}
+
+/* PADDING and MARGINS */
+.wd-pad-left-top-avatar {     
+    padding-left: 16px;
+    padding-top: 12px}
+.wd-pad-left-down-avatar { 
+    padding-left: 12px;
+    padding-top: 12px}
+.wd-pad-left-down-handle {     
+    padding-left: 8px;
+    padding-top: 12px}
+
+
+
+.wd-pad-left-handle { padding-left: 8px;}
+.wd-pad-top-text {padding-top: 12px}
+.wd-pad-left-top-bottom-body {     
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px}
+/* TEXT  */
+.wd-font-size-handle { font-size: 13px; }
+.wd-font-size-author { font-size: 15px; }
+.wd-bold-author { font-weight: 750;}
+.wd-bold-handle { font-weight: 400;}
+
+/* BORDERS */
+.wd-border-handle{
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+} 
+img.wd-img-rounded {border-radius: 48px;}
+img.wd-img-preview-rounded {border-radius: 24px;}
+.wd-body-width {width: 506px;}
+
+
+
+
