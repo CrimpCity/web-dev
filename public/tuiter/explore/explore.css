@@ -24,9 +24,12 @@
 }
 
 .wd-search-width{
-    width:90%;
+    width:100%;
 }
 
+.wd-search-bar-width{
+    width:90%;
+}
 .form__icon {
     position: absolute;
     padding-left: 16px;
@@ -43,6 +46,7 @@
 .form__input:placeholder-shown {
       z-index: 1;
 }
+
 .wd-pad-top-tab {padding-top: 8px;}
 .wd-over-img-text-size{font-size: 48px;}
 .wd-font-weight-over-img{font-weight: 700;}
@@ -63,6 +67,22 @@
 
 
 img.wd-rounded-follow {border-radius: 50%;}
+
+.row {margin: 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***********************************    Part A    *************************************/
 /* COLOR */
