@@ -63,6 +63,7 @@
 .btn-primary.wd-follow-button {
     width: 75%;
     border-radius: 20px;
+    min-width: 80px;
 }
 
 
