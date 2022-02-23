@@ -8,6 +8,62 @@
     align-items: center;
 }
 
+/***********************************    FONT    *************************************/
+.wd-more-icon-size { font-size: 10px; }
+.wd-move-left-navbar {position:absolute; left: -12px;}
+.wd-margin-none { margin: 0px; }
+
+.btn-primary.wd-tuit-button {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wd-search-icon-align{
+    display:flex;
+    align-items: center;  
+}
+
+.wd-search-width{
+    width:90%;
+}
+
+.form__icon {
+    position: absolute;
+    padding-left: 16px;
+    pointer-events: none;
+    z-index: 2; 
+}
+
+.form__input {
+      position: relative;
+      padding-left: 48px;
+      z-index: 3;
+}
+
+.form__input:placeholder-shown {
+      z-index: 1;
+}
+.wd-pad-top-tab {padding-top: 8px;}
+.wd-over-img-text-size{font-size: 48px;}
+.wd-font-weight-over-img{font-weight: 700;}
+
+
+.wd-trend-image {
+    border-radius: 10px;
+    border: none;
+    vertical-align: top;
+}
+
+.wd-trending-pad-bottom{padding-bottom: 16px;}
+
+.btn-primary.wd-follow-button {
+    width: 75%;
+    border-radius: 20px;
+}
+
+
+img.wd-rounded-follow {border-radius: 50%;}
+
 /***********************************    Part A    *************************************/
 /* COLOR */
 /* .bg-color-search { background-color: rgb(33,35,39);}  */
@@ -27,11 +83,16 @@
     padding-bottom: 6px;
 }
 .wd-pad-left-search {padding-left: 16px;}
+.wd-pad-left-more {padding-left: 4px;}
+
+.wd-margin-left-zero { margin-left: 0px; }
+
+.wd-pad-side-zero {padding-left: 0px;}
 .wd-pad-right-search {padding-right: 16px;}
 
 /* MARGINS */
 .wd-margin-right { margin-right: 16px; }
-
+.wd-margin-top { margin-top: 12px; }
 
 /* SIZE, POSITION, ALIGNMENT, BORDERS */
 .wd-search-bar-width{width: 90%;}
