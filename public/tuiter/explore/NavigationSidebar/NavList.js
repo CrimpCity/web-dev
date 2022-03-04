@@ -1,9 +1,9 @@
 import NavItem from "./NavItem.js";
 import Navs from "./Navs.js";
 
-const NavList = () => {
+const NavList = (active) => {
     return (
-        `${Navs.map(nav => { return (NavItem(nav)); }).join('')}`
+        `${Navs.map(nav => { return (NavItem(nav, active)); }).join('')}`
     );
 }
 

@@ -30,20 +30,20 @@
 .wd-search-bar-width{
     width:90%;
 }
-.form__icon {
+.wd-form-icon {
     position: absolute;
     padding-left: 16px;
     pointer-events: none;
     z-index: 2; 
 }
 
-.form__input {
+.wd-form-input {
       position: relative;
       padding-left: 48px;
       z-index: 3;
 }
 
-.form__input:placeholder-shown {
+.wd-form-input:placeholder-shown {
       z-index: 1;
 }
 

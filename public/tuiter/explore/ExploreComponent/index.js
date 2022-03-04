@@ -6,8 +6,8 @@ const ExploreComponent = () => {
     const formatted = (`
         <div class="col-12">
             <form action="#" class="wd-search-icon-align m-0">
-                <i class="fas fa-search form__icon"></i>
-                <input class="form__input wd-search-bar-width wd-rounded-corners-search"
+                <i class="fas fa-search wd-form-icon"></i>
+                <input class="wd-form-input wd-search-bar-width wd-rounded-corners-search"
                     placeholder="Search Twitter">
                 <div class="ms-5">
                     <a href="explore-settings.html"><i class="fas fa-cog fa-2x"></i></a>
