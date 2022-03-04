@@ -1,0 +1,44 @@
+import NavList from "./NavList.js";
+
+
+const NavigationSidebar = () => {
+    return (`
+        <div class="list-group align-items-start">
+            <a href="tuiter/navigation.html" class="list-group-item list-group-item-action">
+                <i class="fab fa-twitter fa-1x fa-fw"></i>
+            </a>
+
+            ${NavList()}
+
+        </div>
+        <div class="d-grid mt-2">
+            <a href="tweet.html"
+            class="btn btn-primary btn-block rounded-pill">
+                Tweet
+            </a>
+        </div>
+    `);
+}
+export default NavigationSidebar;
+
+
+
+
+
+
+// const NavigationSidebar = () => {
+//     return (`
+//             <div class="list-group">
+//                 <a class="list-group-item" href="/">
+//                     <i class="fab fa-twitter"></i></a>
+//             <!-- continue the rest of the list -->
+//             ${NavList()}
+//             </div>
+//             <div class="d-grid mt-2">
+//                 <a href="tweet.html"
+//                    class="btn btn-primary btn-block rounded-pill">
+//                     Tweet</a>
+//             </div>
+//     `);
+// }
+// export default NavigationSidebar;
