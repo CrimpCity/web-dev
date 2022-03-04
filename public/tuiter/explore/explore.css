@@ -81,11 +81,19 @@ img.wd-rounded-follow {border-radius: 50%;}
     border-color:rgb(40, 40, 40) !important;
 }
 
+.wd-post-text-light-color{
+    color:rgb(87, 87, 87);
+}
 
 
+.wd-post-border{
+    border-color:rgb(40, 40, 40) !important;
+    border-width: 1px;
+}
 
-
-
+li.wd-small-pad{
+    padding: 2px;
+}
 
 
 

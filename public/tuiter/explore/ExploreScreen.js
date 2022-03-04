@@ -30,6 +30,15 @@ import WhoToFollowList from "./WhoToFollowList/index.js";
 
 
 
+// <!-- MAIN CONTENT -->
+// <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-9 col-9 pt-3">
+//     ${ExploreComponent()}
+// </div>
+
+
+
+
+
 
 // (function ($) {
 //     $('#wd-explore').append(`
