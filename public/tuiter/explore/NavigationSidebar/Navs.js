@@ -44,31 +44,9 @@ export default [
     {
         title: 'More',
         link: "#",
+        // More icon is no longer stacked with ellipsis and circle it's just a circle 
         icon: '<i class="fa-solid fas fa-circle fa-fw wd-right-pad-icon"></i>',
         isActive: false,
     },
 ];
-
-
-// icon: '<i class="fa-solid fas fa-circle fa-fw"></i>',
-
-
-{/* <i class="fa-solid fa-circle"></i> */ }
-// icon: '<span class="fa-regular fa-stack fa-fw"><i class="fa-stack-1x fa-solid fas fa-circle fa-fw"></i><i class="fa-stack-1x fas fa-ellipsis-h fa-inverse wd-more-icon-size fa-fw"></i> </span>',
-
-// icon: '<span class="fa-regular fa-stack fa-fw">\
-// <i class="fa-stack-1x fa-solid fas fa-circle fa-fw"></i>\
-// <i class="fa-stack-1x fas fa-ellipsis-h fa-inverse wd-more-icon-size fa-fw"></i>\
-// </span>',
-// fa-solid fa-ellipsis
-
-
-
-
-
-
-
-
-
-
 

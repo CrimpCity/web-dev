@@ -73,6 +73,14 @@ img.wd-rounded-follow {border-radius: 50%;}
 
 .wd-right-pad-icon{padding-right: 24px;}
 
+.wd-who-to-follow-color{
+    background-color:rgb(34, 34, 34);
+}
+
+.wd-who-to-follow-border-color{
+    border-color:rgb(40, 40, 40) !important;
+}
+
 
 
 
