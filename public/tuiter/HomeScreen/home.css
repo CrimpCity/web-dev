@@ -134,8 +134,7 @@ margin: 0px;}
 
 .wd-divide-border{
     border-color:rgb(87, 87, 87) !important;
-    margin: 0px;
-    padding: 0px;}
+}
 
 .wd-container-engagement{
     display: flex;
@@ -151,7 +150,14 @@ a.wd-no-formatting {text-decoration: none; }
  img.wd-rounded {border-radius: 15%;}
 .wd-rounded-corners-search {border-radius: 24px; }
 
+col.wd-min-width{
+    min-width: 100px;
+}
 
+row.wd-no-pad{
+    padding-left: 0px;
+}
 
-
-
+.wd-smaller-col{
+    width: 85%
+}

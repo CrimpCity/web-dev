@@ -36,7 +36,7 @@ const PostItem = (post) => {
                 <img src="${post.userAvatar}" class="mt-1 wd-rounded-follow float-start"
                     width="50px" height="50px">
             </div>
-            <div class="col-11 mt-1 wd-bg-color">
+            <div class="col-11 mt-1 wd-bg-color ms-0 wd-right">
                 <div class="row">
                     <div class="d-flex align-items-start">
                         <div class="w-100 wd-margin-none">
