@@ -106,13 +106,6 @@ li.wd-small-pad{
     border-color:rgb(87, 87, 87) !important;
 }
 
-/* .wd-caption-border{
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-color:rgb(87, 87, 87) !important;
-} */
-
-
 .wd-no-margin-pad{
     margin-left: 0px;
     margin-right: 0px;
@@ -139,11 +132,13 @@ li.wd-small-pad{
 .wd-caption-border-color{border-color:rgb(87, 87, 87) !important;
 margin: 0px;}
 
+.wd-divide-border{
+    border-color:rgb(87, 87, 87) !important;
+    margin: 0px;
+    padding: 0px;}
 
-
-.wd-container-analytics{
+.wd-container-engagement{
     display: flex;
-    /* justify-content: space-evenly; */
     justify-content: space-between;
     width: 80%;
 }
@@ -151,165 +146,12 @@ margin: 0px;}
 a.wd-no-formatting {text-decoration: none; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***********************************    Part A    *************************************/
-/* COLOR */
-/* .bg-color-search { background-color: rgb(33,35,39);}  */
-.wd-bg-color-search { background-color: darkgray;}
-.wd-text-color-search { color: white; }
-.wd-search-bar-color{
-    background-color: darkgray;
-    color: white;
-}
-
-/* PADDING */
-.wd-pad-top-explore {padding-top: 8px;}
-.wd-pad-all-search {
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 6px;
-}
-.wd-pad-left-search {padding-left: 16px;}
-.wd-pad-left-more {padding-left: 4px;}
-
-.wd-margin-left-zero { margin-left: 0px; }
-
-.wd-pad-side-zero {padding-left: 0px;}
-.wd-pad-right-search {padding-right: 16px;}
-
-/* MARGINS */
-.wd-margin-right { margin-right: 16px; }
-.wd-margin-top { margin-top: 12px; }
-
-/* SIZE, POSITION, ALIGNMENT, BORDERS */
-.wd-search-bar-width{width: 90%;}
+/* img.wd-rounded{border-radius: 1px;}
+ */
+ img.wd-rounded {border-radius: 15%;}
 .wd-rounded-corners-search {border-radius: 24px; }
 
-.wd-pos-abs-gear {
-    position: absolute;
-    right:12px;
-    vertical-align: middle;}
-
-
-
-/***********************************    Part B    *************************************/
-/* COLOR */
-.wd-bg-color-links { background-color: rgb(33,35,39);} 
-.wd-text-highlight-color-links { color: rgb(29,161,242);} 
-.wd-text-color-links { color: rgb(110, 118, 125);}
-
-/* PADDING */
-.wd-pad-top-links {padding-top: 24px;}
-.wd-pad-all-links { padding: 16px; }
-
-/* MARGINS */
-
-/* SIZE, POSITION, ALIGNMENT, BORDERS */
-.wd-font-size-links { font-size: 15px; }
-.wd-container-equal {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.wd-border-bottom-highlight-link{
-    border-bottom-color: rgb(29,161,242);
-    border-bottom-style: solid;
-    border-bottom-width: 8px;
-}
-
-.wd-border-bottom-default-link{
-    border-bottom-color: rgb(110, 118, 125);
-    border-bottom-style: solid;
-    border-bottom-width: 8px;
-} 
-.wd-border-padding-top{padding-top: 0px;}
-
-/* TEXT  */
 
 
 
 
-
-
-/***********************************    Part C    *************************************/
-/* COLOR */
-.wd-text-color-trending { color: rgb(110, 118, 125);}
-.wd-text-color-title { color: white; }
-
-/* PADDING */
-.wd-border-padding-bottom-trend{padding-bottom: 16px;}
-
-/* MARGINS */
-.wd-margin-top-trending { margin-top: -16px; }
-
-/* SIZE, POSITION, ALIGNMENT, BORDERS */
-.wd-font-size-suggested-trending { font-size: 13px; }
-.wd-font-size-suggested-title { font-size: 16px; }
-/* TEXT  */
-
-
-
-/***********************************    Part D    *************************************/
-/* COLOR */
-
-/* PADDING */
-.wd-pad-left-bottom-right-trending {     
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;}
-.wd-pad-left-trending {padding-left: 16px;}
-
-/* MARGINS */
-.wd-margin-right-trending { margin-right: 16px; }
-
-/* SIZE, POSITION, ALIGNMENT, BORDERS */
-.wd-pos-abs-trend-img {
-    position: absolute;
-    right:16px;
-    vertical-align: middle;}
-
-img.wd-rounded{border-radius: 1px;}
-/* TEXT  */
-
-
-
-
-/***********************************    Part E    *************************************/
-/* COLOR */
-.wd-text-color-live-trend { color: lightgray;}
-
-/* PADDING */
-.wd-pad-left-bottom-right-trending {     
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;}
-.wd-pad-left-trending {padding-left: 16px;}
-.wd-border-padding-top-trending{padding-top: 48px;}
-
-/* MARGINS */
-.wd-margin-right-trending { margin-right: 16px; }
-
-/* SIZE, POSITION, ALIGNMENT, BORDERS */
-.wd-pos-abs-trend-img {
-    position: absolute;
-    right:16px;
-    vertical-align: middle;}
-
-img.wd-rounded {border-radius: 15%;}
-/* TEXT  */
