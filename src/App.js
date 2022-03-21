@@ -25,9 +25,22 @@
 // export default App;
 
 
+
+
+import './vendors/bootstrap/css/bootstrap.min.css';
+import './vendors/bootstrap/bootswatch/cyborg/bootstrap.min.css';
+import './vendors/fontawesome/css/all.min.css';
+import HelloWorld from "./components/hello-world";
+
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div className="container">
+      {/* <h1>Hello World!</h1> */}
+      <HelloWorld />
+      <i class="fas fa-home"></i>
+      <i class="far fa-lightbulb"></i>
+    </div>
   );
 }
 export default App;
