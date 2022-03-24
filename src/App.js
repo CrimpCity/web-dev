@@ -31,8 +31,8 @@ import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootswatch/cyborg/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from "./components/hello-world";
-import Labs from "./components/labs";
-import Tuiter from "./components/tuits";
+import Labs from "./components/labs/index.js";
+import Tuiter from "./components/tuiter/index.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // function App() {
