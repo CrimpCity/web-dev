@@ -2,6 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import Classes from "./classes";
 import Styles from "./styles";
+import ConditionalOutput from "./conditional-output/index.js";
 
 // const Labs = () => {
 //     return (
@@ -26,6 +27,7 @@ const Labs = () => {
     return (
         <div>
             <h1>Labs</h1>
+            <ConditionalOutput />
             <Styles />
             <Classes />
         </div>
