@@ -3,7 +3,7 @@ import React from "react";
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output/index.js";
-
+import TodoList from "./todo/TodoList.js"
 // const Labs = () => {
 //     return (
 //         <>
@@ -27,6 +27,7 @@ const Labs = () => {
     return (
         <div>
             <h1>Labs</h1>
+            <TodoList />
             <ConditionalOutput />
             <Styles />
             <Classes />
