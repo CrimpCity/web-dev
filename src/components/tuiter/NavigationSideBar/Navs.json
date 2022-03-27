@@ -1,37 +1,37 @@
 [
     {
         "title": "Home",
-        "link": "tuiter/home.html",
+        "link": "/tuiter/home",
         "icon": "fas fa-home fa-fw wd-right-pad-icon"
     },
     {
         "title": "Explore",
-        "link": "tuiter/explore/explore.html",
+        "link": "/tuiter/explore",
         "icon": "fas fa-hashtag fa-fw wd-right-pad-icon"
     },
     {
         "title": "Notifications",
-        "link": "tuiter/notifications.html",
+        "link": "/tuiter/notifications",
         "icon": "fas fa-bell fa-fw wd-right-pad-icon"
     },
     {
         "title": "Messages",
-        "link": "tuiter/messages.html",
+        "link": "/tuiter/messages",
         "icon": "fas fa-envelope fa-fw wd-right-pad-icon"
     },
     {
         "title": "Bookmarks",
-        "link": "tuiter/bookmarks/bookmarks.html",
+        "link": "/tuiter/bookmarks",
         "icon": "fas fa-bookmark fa-fw wd-right-pad-icon"
     },
     {
         "title": "Lists",
-        "link": "tuiter/lists.html",
+        "link": "/tuiter/lists",
         "icon": "fas fa-list fa-fw wd-right-pad-icon"
     },
     {
         "title": "Profile",
-        "link": "tuiter/profile.html",
+        "link": "/tuiter/profile",
         "icon": "fas fa-user fa-fw wd-right-pad-icon"
     },
     {

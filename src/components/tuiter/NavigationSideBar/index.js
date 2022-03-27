@@ -1,25 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../ExploreScreen/explore.css"
 import NavList from "./NavList.js";
 
 
-const NavigationSidebar = ({ active = 'explore' }) => {
-    return (<>
-        <div className="list-group align-items-start">
-            <a href="tuiter/navigation.html" className="list-group-item list-group-item-action">
-                <i className="fab fa-twitter fa-1x fa-fw"></i>
-            </a>
+const NavigationSidebar = (active) => {
+    return (
+        <>
+            <div className="list-group align-items-start">
+                <Link to="/"
+                    className="list-group-item list-group-item-action">
+                    <i className="fab fa-twitter fa-1x fa-fw"></i>
+                </Link>
 
-            <NavList active={active} />
+                <NavList active={active} />
 
-        </div>
-        <div className="d-grid mt-2">
-            <a href="tweet.html"
-                className="btn btn-primary btn-block rounded-pill">
-                Tweet
-            </a>
-        </div>
-    </>
+            </div>
+            <div className="d-grid mt-2">
+                <Link to="/tuiter/tweet"
+                    className="btn btn-primary btn-block rounded-pill">
+                    Tweet
+                </Link>
+            </div>
+        </>
     );
 }
 export default NavigationSidebar;
