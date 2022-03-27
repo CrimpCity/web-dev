@@ -34,7 +34,7 @@ import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs/index.js";
 import Tuiter from "./components/tuiter/index.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import HomeScreen from "./components/tuiter/HomeScreen/index.js";
 // function App() {
 //   return (
 //     <BrowserRouter>
@@ -81,6 +81,9 @@ function App() {
           <Route path="/tuiter"
             exact={true}
             element={<Tuiter />} />
+          <Route path="/home"
+            exact={true}
+            element={<HomeScreen />} />
         </Routes>
       </div>
     </BrowserRouter>
