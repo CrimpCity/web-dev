@@ -31,7 +31,7 @@ import './index.css';
 
 
 
-const color = 'blue';
+// const color = 'blue';
 const dangerous = true;
 const Classes = () => {
     return (
