@@ -13,7 +13,8 @@ const PostItem = (post) => {
                     </div>
 
                     <div className="col-2 mt-1">
-                        <img src={post.image} className="mt-1 img-fluid wd-rounded float-end" width="200px" height="200px">
+                        <img src={post.image} className="mt-1 img-fluid wd-rounded float-end" width="200px" height="200px"
+                            alt={post.alt}>
                         </img>
                     </div>
                 </div>

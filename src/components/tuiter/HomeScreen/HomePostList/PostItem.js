@@ -7,7 +7,7 @@ const PostItem = (post) => {
             <div className="border border-1 wd-caption-border mt-2 pt-2 wd-no-margin-pad">
                 <div className="position-relative pt-2 border-bottom border-1 wd-caption-border-color">
                     <img className="img-fluid wd-post-text-light-color "
-                        src={post.postImage} width="100%" height="100%" />
+                        src={post.postImage} width="100%" height="100%" alt={post.alt} />
                 </div>
                 <div className="mt-2 pt-2">
                     <div><p className="mx-2 px-2 fs-6 mb-1">{post.captionTitle}</p></div>
@@ -24,7 +24,7 @@ const PostItem = (post) => {
             <div className="mt-2 pt-2 wd-no-margin-pad">
                 <div className="position-relative pt-2 border-1 wd-caption-border-color">
                     <img className="img-fluid wd-post-text-light-color wd-caption-border"
-                        src={post.postImage} width="100%" height="100%" />
+                        src={post.postImage} width="100%" height="100%" alt={post.alt} />
                 </div>
             </div>
         </>
@@ -42,7 +42,7 @@ const PostItem = (post) => {
                 <i className="fa-solid fa-ellipsis fa-4x wd-post-text-light-color"></i>
                 <div className="col-1 mt-1">
                     <img src={post.userAvatar} className="mt-1 wd-rounded-follow float-start"
-                        width="50px" height="50px"></img>
+                        width="50px" height="50px" alt={post.userName}></img>
                 </div>
                 <div className="col-11 mt-1 wd-bg-color ms-0 wd-right">
                     <div className="row">
@@ -62,25 +62,25 @@ const PostItem = (post) => {
 
                         <div className="wd-container-engagement my-2 py-2">
                             <div className="ms-0">
-                                <a className="wd-post-text-light-color wd-no-formatting" href="#">
+                                <a className="wd-post-text-light-color wd-no-formatting" href="_blank">
                                     <i className="fa fa-comment pe-2"></i> {post.numComments}
                                 </a>
                             </div>
 
                             <div>
-                                <a className="wd-post-text-light-color wd-no-formatting" href="#">
+                                <a className="wd-post-text-light-color wd-no-formatting" href="_blank">
                                     <i className="fa fa-retweet pe-2"></i> {post.numRetweets}
                                 </a>
                             </div>
 
                             <div>
-                                <a className="wd-post-text-light-color wd-no-formatting" href="#">
+                                <a className="wd-post-text-light-color wd-no-formatting" href="_blank">
                                     <i className="fa fa-heart pe-2"></i> {post.numLikes}
                                 </a>
                             </div>
 
                             <div>
-                                <a className="wd-post-text-light-color wd-no-formatting" href="#">
+                                <a className="wd-post-text-light-color wd-no-formatting" href="_blank">
                                     <i className="fa fa-share"></i>
                                 </a>
                             </div>

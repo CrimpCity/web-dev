@@ -20,26 +20,26 @@ const ExploreComponent = () => {
             <div className="pt-2">
                 <ul className="nav nav-tabs">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">For You</a>
+                        <a className="nav-link active" href="_blank">For You</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Trending</a>
+                        <a className="nav-link" href="_blank">Trending</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">News</a>
+                        <a className="nav-link" href="_blank">News</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Sports</a>
+                        <a className="nav-link" href="_blank">Sports</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Entertainment</a>
+                        <a className="nav-link" href="_blank">Entertainment</a>
                     </li>
                 </ul>
             </div>
 
             {/* Refactor the large image out so that it can be changed easier  */}
             <div className="position-relative pt-2">
-                <img className="img-fluid" src="/tuiter/explore/explore_images/starship.JPG" width="100%" height="100%" />
+                <img className="img-fluid" src="/tuiter/explore/explore_images/starship.JPG" width="100%" height="100%" alt="SpaceX's Starship" />
                 <div
                     className="ms-1 wd-over-img-text-size wd-text-color-search position-absolute bottom-0 start-20 wd-font-weight-over-img">
                     SpaceX's Starship

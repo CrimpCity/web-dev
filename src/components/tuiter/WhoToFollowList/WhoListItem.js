@@ -5,7 +5,7 @@ const WhoListItem = (who) => {
                 <div className="row">
                     <div className="col-2 mt-1">
                         <img src={who.avatarIcon} className="mt-1 wd-rounded-follow float-start" width="50px"
-                            height="50px"></img>
+                            height="50px" alt={who.alt}></img>
                     </div>
                     <div className="col-7 mt-1">
                         <p className="m-0 ms-4 fs-6 fw-bold">{who.userName} <i className="fas fa-check-circle"></i></p>
