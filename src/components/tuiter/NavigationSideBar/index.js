@@ -1,4 +1,5 @@
 import React from "react";
+import "../ExploreScreen/explore.css"
 import NavList from "./NavList.js";
 
 
