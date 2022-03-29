@@ -1,7 +1,7 @@
 import "../home.css"
 
 
-const PostItem = (post) => {
+const PostItem = (post, index) => {
     const caption = (
         <>
             <div className="border border-1 wd-caption-border mt-2 pt-2 wd-no-margin-pad">
@@ -37,7 +37,7 @@ const PostItem = (post) => {
 
 
     const formatted = (
-        <>
+        <div key={index}>
             <div className="row border-bottom border-1 wd-divide-border mt-2">
                 <i className="fa-solid fa-ellipsis fa-4x wd-post-text-light-color"></i>
                 <div className="col-1 mt-1">
@@ -89,7 +89,7 @@ const PostItem = (post) => {
                 </div>
                 <div className="wd-clear"></div>
             </div>
-        </>
+        </div>
     )
 
     return formatted

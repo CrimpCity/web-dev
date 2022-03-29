@@ -1,18 +1,13 @@
 import NavItem from "./NavItem.js";
-import Navs from "./Navs.json";
+import { useSelector } from "react-redux";
 
-// const NavList = (active) => {
-//     return (
-//         `${Navs.map(nav => { return (NavItem(nav, active)); }).join('')}`
-//     );
-// }
 
-// export default NavList;
 
 const NavList = (active) => {
+    const Navs = useSelector(state => state.navs);
     return (
         <>
-            {Navs.map(nav => { return (NavItem(nav, active)); })}
+            {Navs.map((nav, index) => { return (NavItem(nav, active, index)); })}
         </>
     );
 }

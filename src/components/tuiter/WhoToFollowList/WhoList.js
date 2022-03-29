@@ -1,25 +1,13 @@
-import Who from "./Who.json";
 import WhoListItem from "./WhoListItem.js";
-
-// OLD JSX implementation
-// const WhoToFollowList = () => {
-//     return (
-//         `${Who.map(who => { return (WhoListItem(who)); }).join('')}`
-//     );
-// }
-
-// export default WhoToFollowList;
-
-
+import { useSelector } from "react-redux";
 
 
 const WhoToFollowList = () => {
+    const Who = useSelector(state => state.who);
     return (
         <>
             {
-                Who.map(
-                    who => { return (WhoListItem(who)); }
-                )
+                Who.map((who, index) => { return (WhoListItem(who, index)); })
             }
         </>
     );
