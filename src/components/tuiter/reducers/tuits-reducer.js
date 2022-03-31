@@ -22,8 +22,7 @@ const tuitsReducer =
                 });
 
             case 'delete-tuit':
-                return state.filter(
-                    tuit => tuit._id !== action.tuits._id);
+                return state.filter(tuit => tuit._id !== action.tuit._id);
 
             case 'create-tuit':
                 const newTuit = {

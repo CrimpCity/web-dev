@@ -2,14 +2,18 @@ import './whats-happening.css';
 import '../HomeScreen/home.css';
 import React from "react";
 import { useState } from "react";
-
+import { useDispatch } from "react-redux";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
+    const dispatch = useDispatch();
     const tuitClickHandler = () => {
+        dispatch({
+            type: 'create-tuit',
+            tuit: whatsHappening
+        });
         console.log(whatsHappening);
     };
-
 
     const formatted = (
         <div className="row mt-1 mb-2">

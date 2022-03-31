@@ -79,3 +79,11 @@
     .ttr-navigation
     .ttr-tuit-button { width: 50px; }
 }
+
+.wd-add-padding-avatar{
+    padding-left: 16px;
+}
+
+.wd-no-pad-left{
+    padding-left: 0px;
+}

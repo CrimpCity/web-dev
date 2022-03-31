@@ -1,15 +1,79 @@
 import React from "react";
 import './tuits.css';
+import "../HomeScreen/home.css"
 import TuitStats from "./TuitStats.js";
 import { useDispatch } from "react-redux";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
-    const deleteTweetClickHandler = () => {
-        dispatch({ type: 'delete-tuit', tuit })
+    const deleteTuit = () => { dispatch({ type: 'delete-tuit', tuit }) }
+
+    let content = "";
+    if (typeof tuit.attachments === "undefined") {
+        content = "";
+    } else {
+        if (tuit.attachments && tuit.attachments.image) {
+            const image = (
+                <img src={tuit.attachments.image}
+                    className="mt-2 wd-border-radius-20px"
+                    style={{ width: "100%" }} alt={tuit.topic} />
+            )
+            content = image;
+        }
+        if (tuit.attachments && tuit.attachments.video) {
+            const video = (
+                <iframe width="100%" height="350px"
+                    className="mt-2 wd-border-radius-20px"
+                    style={{ width: "100%" }}
+                    src={`https://www.youtube.com/embed/${tuit.attachments.video}`}
+                    title="YouTube video player" frameBorder="0"
+                    allowFullScreen></iframe>
+            )
+            content = video;
+        }
     }
-    return (
+
+    const formatted = (
         <li className="list-group-item">
+            <div className="row">
+                <div className="col-1 wd-no-pad-left">
+                    <img className="rounded-circle wd-avatar-image"
+                        src={tuit['logoImage']} alt={tuit.userName} />
+                </div>
+                <div className="col-11 wd-add-padding-avatar">
+                    <div>
+                        <div className="d-flex bd-highlight mb-3">
+                            <div className="bd-highlight">
+                                <span className="m-0 fs-6 fw-bold">{tuit.postedBy.username} </span></div>
+                            <div className="bd-highlight">
+                                <span className="pl-1 wd-post-text-light-color">@{tuit.handle}</span></div>
+                            <div className="ms-auto bd-highlight">
+
+                                <i onClick={() => deleteTuit(tuit)}
+                                    className="fas fa-trash"></i>
+
+                            </div>
+
+                        </div>
+                        <p className="m-0">{tuit.tuitText}</p>
+                    </div>
+                    {content}
+                    <TuitStats tuit={tuit} />
+                </div>
+            </div>
+        </li>
+    )
+
+    return (formatted);
+};
+
+export default TuitListItem;
+
+
+
+
+
+{/* <li className="list-group-item">
             <table>
                 <tbody>
                     <tr>
@@ -18,7 +82,7 @@ const TuitListItem = ({ tuit }) => {
                                 src={tuit['logoImage']} alt={tuit.userName} />
                         </td>
                         <td className="ps-3" style={{ width: '100%' }}>
-                            <i onClick={deleteTweetClickHandler} className="fa fa-remove fa-pull-right"></i>
+                            <i onClick={deleteTweetClickHandler} className="fa fa-remove"></i>
                             <span className="fw-bold">{tuit.userName}</span>
                             {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
                             <span className="ms-1 text-secondary">@{tuit.handle}</span>
@@ -45,8 +109,32 @@ const TuitListItem = ({ tuit }) => {
                     </tr>
                 </tbody>
             </table>
-        </li>
-    );
-};
+        </li> */}
 
-export default TuitListItem;
+
+
+        // const formatted = (
+        //     <li className="list-group-item">
+        //         <table>
+        //             <tbody>
+        //                 <tr>
+        //                     <td className="align-text-top">
+        //                         <img className="rounded-circle wd-avatar-image"
+        //                             src={tuit['logoImage']} alt={tuit.userName} />
+        //                     </td>
+        //                     <td className="ps-3" style={{ width: '100%' }}>
+        //                         <i onClick={deleteTweetClickHandler} className="fa fa-remove"></i>
+        //                         <span className="fw-bold">{tuit.userName}</span>
+        //                         {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
+        //                         <span className="ms-1 text-secondary">@{tuit.handle}</span>
+        //                         <div>
+        //                             {tuit.tuitText}
+        //                         </div>
+        //                         {content}
+        //                         <TuitStats tuit={tuit} />
+        //                     </td>
+        //                 </tr>
+        //             </tbody>
+        //         </table>
+        //     </li>
+        // )
