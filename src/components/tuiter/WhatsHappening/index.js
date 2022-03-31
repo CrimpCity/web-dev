@@ -1,62 +1,52 @@
-// import whatsHappening from "./whats-happening-data.json";
-// import './whats-happening.css'
+import './whats-happening.css';
+import '../HomeScreen/home.css';
+import React from "react";
+import { useState } from "react";
 
-
-// function WhatsHappening() {
-//     return (
-//         <div class="ttr-whats-happening p-2">
-//             <div class="ttr-search position-relative">
-//                 <i class="fas fa-search position-absolute"></i>
-//                 <input class="bg-secondary bg-opacity-10 border-0 form-control form-control-lg rounded-pill ps-5"
-//                     placeholder="Search Tuiter" />
-//             </div>
-//             <div class="bg-secondary bg-opacity-10 ttr-rounded-15px mt-2 p-2">
-//                 <h2>What's happening</h2>
-//                 {
-//                     whatsHappening.map(wh => {
-//                         return (
-//                             <div class="ttr-whats-happening-tuit d-flex mb-3">
-//                                 <div class="flex-grow-1">
-//                                     <h3 class="fs-6 fw-lighter">
-//                                         {wh.topic} - {wh['hours-ago']} hours ago</h3>
-//                                     <div class="fw-bold mb-2 pe-1">
-//                                         {wh.content}
-//                                     </div>
-//                                     <h4 class="fs-6 fw-lighter">{wh.likes} likes</h4>
-//                                 </div>
-//                                 <div>
-//                                     <img src={`../images/${wh['user-logo']}`}
-//                                         class="ttr-rounded-15px ttr-user-logo" />
-//                                 </div>
-//                             </div>
-//                         );
-//                     })
-//                 }
-//             </div>
-//         </div>
-//     );
-// }
-// export default WhatsHappening;
-
-
-import React, { useState } from "react";
 
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening]
-        = useState('');
+    let [whatsHappening, setWhatsHappening] = useState('');
     const tuitClickHandler = () => {
         console.log(whatsHappening);
-    }
-    return (
-        <>
-            <textarea value={whatsHappening}
-                onChange={(event) =>
-                    setWhatsHappening(event.target.value)}>
-            </textarea>
-            <button onClick={tuitClickHandler}>
-                Tuit
-            </button>
-        </>
-    );
+    };
+
+
+    const formatted = (
+        <div className="row mt-1 mb-2">
+            <div className="col-1">
+                <img src="/images/elon.jpg" className="wd-rounded-follow float-start"
+                    width="50px" height="50px" alt="elon"></img>
+            </div>
+            <div className="col-11 wd-col-pad-left">
+                <div>
+                    <textarea className="ml-3 wd-width-100 wd-whats-happening-textarea fw-bold"
+                        placeholder="What's happening?"
+                        value={whatsHappening}
+                        onChange={(event) => setWhatsHappening(event.target.value)}>
+                    </textarea>
+                </div>
+                <div className="row my-2">
+                    <div className="col-4 p-0 m-0">
+                        <div className="d-flex wd-whats-happening-icon-color">
+                            <div className="mx-2"><i className="far fa-image"></i></div>
+                            <div className="mx-2"><i className="far fa-chart-bar"></i></div>
+                            <div className="mx-2"><i className="far fa-smile"></i></div>
+                            <div className="mx-2"><i className="far fa-calendar"></i></div>
+                        </div>
+                    </div>
+                    <div className="col-6"></div>
+                    <div className="col-2">
+                        <button className="btn btn-primary wd-follow-button"
+                            onClick={tuitClickHandler}>
+                            Tweet
+                        </button></div>
+                </div>
+            </div>
+        </div>
+    )
+
+    return formatted
+
+
 }
 export default WhatsHappening;

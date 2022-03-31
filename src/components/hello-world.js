@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./tuiter/HomeScreen/home.css"
 
 const HelloWorld = () => {
+
+
     return (
         <>
             <h1>Hello World!</h1>

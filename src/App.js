@@ -7,7 +7,7 @@ import Tuiter from "./components/tuiter/index.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ExploreComponent from "./components/tuiter/ExploreScreen/ExploreComponent.js";
 import HomeScreen from "./components/tuiter/home-screen/index.js"
-// import HomePostList from "./components/tuiter/HomeScreen/HomePostList/index.js";
+import HomePostList from "./components/tuiter/HomeScreen/HomePostList/index.js";
 // import HomeScreen from "./components/tuiter/HomeScreen/index.js";
 // import ExploreScreen from './components/tuiter/ExploreScreen/index.js';
 
@@ -28,6 +28,8 @@ function App() {
               {/* <Route index
                 element={<HomePostList />} /> */}
               <Route index
+                element={<HomePostList />} />
+              <Route path="home"
                 element={<HomeScreen />} />
               <Route path="explore"
                 element={<ExploreComponent />} />

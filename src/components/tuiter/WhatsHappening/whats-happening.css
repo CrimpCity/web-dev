@@ -1,10 +1,35 @@
-.ttr-whats-happening
-.ttr-whats-happening-tuit
-.ttr-user-logo {
-    width: 68px;
+
+.wd-whats-happening-icon-color{
+    color: deepskyblue
 }
 
-.ttr-whats-happening .ttr-search .fas.fa-search {
-    top: 17px;
-    left: 17px;
+.wd-whats-happening-icon-align{
+    display:flex;
+    align-items: center;  
+}
+
+.wd-whats-happening-textarea{
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(40, 40, 40) !important;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: black;
+    color:rgb(87, 87, 87);
+}
+
+.wd-width-100{
+    width: 100%;
+    margin-left: 4pt;
+}
+
+.btn-primary.wd-follow-button{
+    width: 75%;
+    border-radius: 20px;
+    min-width: 80px;
+}
+
+.wd-col-pad-left{
+    padding-left: 25px;
 }
