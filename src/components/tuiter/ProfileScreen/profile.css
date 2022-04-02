@@ -1,0 +1,64 @@
+.wd-text-color{
+    color: white;
+}
+
+.wd-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.wd-post-text-light-color{
+    color:rgb(87, 87, 87);
+}
+
+.wd-font-size-handle{
+    font-size: 16px;
+}
+
+.wd-font-size-meta{
+    font-size: 16px;
+}
+
+.wd-banner-image{
+    width: 100%;
+}
+
+.wd-avatar-photo{
+    border-radius: 50%;
+    width: 45%;
+    border: 5px solid;
+    border-color: black;
+}
+
+.wd-avatar-photo-position{
+    bottom:-20%;
+}
+
+.wd-right{float: right}
+.wd-clear{clear:both;}
+
+
+.btn-primary.wd-edit-button{
+    min-width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    border-color:rgb(87, 87, 87) !important;
+}
+
+.wd-edit-button-position{
+    bottom: -5%;
+}
+
+
+.wd-bio-position{
+    position: relative;
+    top: 65px;
+}
+
+.wd-bio-width{
+    width: 95%;
+}
+
