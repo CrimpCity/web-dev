@@ -1,0 +1,122 @@
+.wd-text-color{
+    color: white;
+}
+
+.wd-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.wd-post-text-light-color{
+    color:rgb(87, 87, 87);
+}
+
+.wd-font-size-handle{
+    font-size: 16px;
+}
+
+.wd-font-size-meta{
+    font-size: 16px;
+}
+
+.wd-banner-image{
+    width: 100%;
+}
+
+.wd-avatar-photo{
+    border-radius: 50%;
+    width: 45%;
+    border: 5px solid;
+    border-color: black;
+}
+
+.wd-avatar-photo-position{
+    bottom:-20%;
+}
+
+.wd-right{float: right}
+.wd-clear{clear:both;}
+
+
+.btn-primary.wd-edit-button{
+    min-width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    border-color:rgb(87, 87, 87) !important;
+}
+
+.wd-edit-button-position{
+    bottom: -5%;
+}
+
+
+.wd-edit-position{
+    position: relative;
+    top: 80px;
+}
+
+.wd-edit-width{
+    width: 95%;
+}
+
+.btn-primary.wd-save-button{
+    min-width: 75px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-color:rgb(87, 87, 87) !important;
+}
+
+.wd-text-box-border{
+    border: 1px solid;
+    border-color:rgb(87, 87, 87) !important;
+    border-radius: 2%;
+}
+
+
+.wd-text-box{
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    border: None !important;
+}
+
+.wd-name-box-height{
+    height: 80px;
+}
+
+.wd-name-form-height{
+    height: 45px;
+}
+
+.wd-bio-box-height{
+    height: 155px;
+}
+
+.wd-bio-form-height{
+    height: 125px;
+}
+
+
+.wd-location-box-height{
+    height: 80px;
+}
+
+.wd-location-form-height{
+    height: 45px;
+}
+
+.wd-website-box-height{
+    height: 115px;
+}
+
+.wd-website-form-height{
+    height: 80px;
+}
+
+

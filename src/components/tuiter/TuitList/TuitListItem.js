@@ -51,7 +51,6 @@ const TuitListItem = ({ tuit }) => {
 
                                 <i onClick={() => deleteTuit(tuit)}
                                     className="fas fa-trash"></i>
-
                             </div>
 
                         </div>

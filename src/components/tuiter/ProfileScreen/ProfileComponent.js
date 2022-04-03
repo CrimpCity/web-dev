@@ -2,9 +2,6 @@ import { Link } from "react-router-dom";
 import "./profile.css"
 
 const ProfileComponent = (profile) => {
-    // console.log(JSON.stringify(profile))
-    console.log(profile.profile.numTweets)
-
     const formatted = (
         <>
             <div className="row wd-text-color wd-container mb-2">
@@ -84,11 +81,8 @@ const ProfileComponent = (profile) => {
                         Followers
                     </div>
                 </div>
+                <div className="wd-clear"></div>
             </div>
-
-
-
-
         </>
     )
 

@@ -10,11 +10,7 @@ const ProfileScreen = () => {
         <>
             <ProfileComponent profile={profile} />
         </>
-
-
     );
 
 }
 export default ProfileScreen;
-
-

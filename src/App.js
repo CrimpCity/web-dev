@@ -9,7 +9,7 @@ import ExploreComponent from "./components/tuiter/ExploreScreen/ExploreComponent
 import HomeScreen from "./components/tuiter/home-screen/index.js"
 import HomePostList from "./components/tuiter/HomeScreen/HomePostList/index.js";
 import ProfileScreen from "./components/tuiter/ProfileScreen/index.js"
-// import EditProfileScreen from "./components/tuiter/EditProfileScreen/index.js"
+import EditProfileScreen from "./components/tuiter/EditProfile/index.js"
 
 // import HomeScreen from "./components/tuiter/HomeScreen/index.js";
 // import ExploreScreen from './components/tuiter/ExploreScreen/index.js';
@@ -38,8 +38,8 @@ function App() {
                 element={<ExploreComponent />} />
               <Route path="profile"
                 element={<ProfileScreen />} />
-              {/* <Route path="edit-profile"
-                element={<EditProfileScreen />} /> */}
+              <Route path="edit-profile"
+                element={<EditProfileScreen />} />
               {/* <Route path="notifications"
                 element={<NotificationScreen />} /> */}
               ...
