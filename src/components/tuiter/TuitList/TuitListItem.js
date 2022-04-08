@@ -3,11 +3,12 @@ import './tuits.css';
 import "../HomeScreen/home.css"
 import TuitStats from "./TuitStats.js";
 import { useDispatch } from "react-redux";
+import deleteTuit from "../actions/tuits-actions.js"
+
+
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
-    const deleteTuit = () => { dispatch({ type: 'delete-tuit', tuit }) }
-
     let content = "";
     if (typeof tuit.attachments === "undefined") {
         content = "";
@@ -49,7 +50,7 @@ const TuitListItem = ({ tuit }) => {
                                 <span className="pl-1 wd-post-text-light-color">@{tuit.handle}</span></div>
                             <div className="ms-auto bd-highlight">
 
-                                <i onClick={() => deleteTuit(tuit)}
+                                <i onClick={() => deleteTuit(dispatch, tuit)}
                                     className="fas fa-trash"></i>
                             </div>
 
