@@ -3,7 +3,7 @@ import './tuits.css';
 import "../HomeScreen/home.css"
 import TuitStats from "./TuitStats.js";
 import { useDispatch } from "react-redux";
-import deleteTuit from "../actions/tuits-actions.js"
+import { deleteTuit } from "../../../actions/tuits-actions.js"
 
 
 
@@ -45,7 +45,7 @@ const TuitListItem = ({ tuit }) => {
                     <div>
                         <div className="d-flex bd-highlight mb-3">
                             <div className="bd-highlight">
-                                <span className="m-0 fs-6 fw-bold">{tuit.postedBy.username} </span></div>
+                                <span className="m-0 fs-6 fw-bold">{tuit.postedBy?.username} </span></div>
                             <div className="bd-highlight">
                                 <span className="pl-1 wd-post-text-light-color">@{tuit.handle}</span></div>
                             <div className="ms-auto bd-highlight">

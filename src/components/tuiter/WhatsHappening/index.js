@@ -3,16 +3,15 @@ import '../HomeScreen/home.css';
 import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
+import { createTuit } from "../../../actions/tuits-actions.js"
+
 
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening] = useState('');
+    const [newTuit, setNewTuit] = useState({ tuitText: '' });
     const dispatch = useDispatch();
-    const tuitClickHandler = () => {
-        dispatch({
-            type: 'create-tuit',
-            tuit: whatsHappening
-        });
-        console.log(whatsHappening);
+
+    const clearTextBox = () => {
+        document.getElementById('tuit-form').value = "";
     };
 
     const formatted = (
@@ -25,8 +24,8 @@ const WhatsHappening = () => {
                 <div>
                     <textarea className="ml-3 wd-width-100 wd-whats-happening-textarea fw-bold"
                         placeholder="What's happening?"
-                        value={whatsHappening}
-                        onChange={(event) => setWhatsHappening(event.target.value)}>
+                        id="tuit-form"
+                        onChange={(event) => setNewTuit({ tuitText: event.target.value })}>
                     </textarea>
                 </div>
                 <div className="row my-2">
@@ -41,16 +40,17 @@ const WhatsHappening = () => {
                     <div className="col-6"></div>
                     <div className="col-2">
                         <button className="btn btn-primary wd-follow-button"
-                            onClick={tuitClickHandler}>
+                            onClick={() => {
+                                createTuit(dispatch, newTuit);
+                                clearTextBox()
+                            }}>
                             Tweet
                         </button></div>
                 </div>
             </div>
         </div>
     )
-
     return formatted
-
-
 }
+
 export default WhatsHappening;
