@@ -19,7 +19,7 @@ export const deleteTuit = async (dispatch, tuit) => {
     dispatch({
         type: DELETE_TUIT,
         tuit
-    })
+    });
 }
 
 export const createTuit = async (dispatch, tuit) => {
