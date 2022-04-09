@@ -2,8 +2,6 @@ import { CREATE_TUIT } from "../../../actions/tuits-actions.js";
 import { FIND_ALL_TUITS } from "../../../actions/tuits-actions.js";
 import { DELETE_TUIT } from "../../../actions/tuits-actions.js";
 import { UPDATE_TUIT } from "../../../actions/tuits-actions.js";
-
-import { LIKE_TUIT } from "../../../actions/tuits-actions.js";
 // import tuits from "../data/tuits.json";
 
 const tuitsReducer =

@@ -4,7 +4,6 @@ export const CREATE_TUIT = 'CREATE_TUIT';
 export const FIND_ALL_TUITS = 'FIND_ALL_TUITS';
 export const UPDATE_TUIT = 'UPDATE_TUIT';
 export const DELETE_TUIT = 'DELETE_TUIT';
-export const LIKE_TUIT = 'LIKE_TUIT';
 
 
 export const findAllTuits = async (dispatch) => {
