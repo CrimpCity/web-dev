@@ -1,7 +1,8 @@
 import axios from 'axios';
-// const TUITS_API = 'http://localhost:4000/api/tuits';
-const TUITS_API = 'https://cs5610-node-server-web-dev.herokuapp.com/api/tuits';
-
+const TUITS_API = 'http://localhost:4000/api/tuits';
+// const TUITS_API = 'https://cs5610-node-server-web-dev.herokuapp.com/api/tuits';
+// New heroku for A9
+// update TUITS API with A9 heroku
 
 
 // This doesn't fucking work
