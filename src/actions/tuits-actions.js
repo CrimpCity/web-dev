@@ -31,7 +31,7 @@ export const createTuit = async (dispatch, tuit) => {
 }
 
 export const updateTuit = async (dispatch, tuit) => {
-    const status = await service.updateTuit(tuit);
+    const updatedTuit = await service.updateTuit(tuit);
     dispatch({
         type: UPDATE_TUIT,
         tuit

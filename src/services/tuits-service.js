@@ -1,6 +1,6 @@
 import axios from 'axios';
-const TUITS_API = 'http://localhost:4000/api/tuits';
-// const TUITS_API = 'https://cs5610-node-server-web-dev-a9.herokuapp.com/api/tuits';
+// const TUITS_API = 'http://localhost:4000/api/tuits';
+const TUITS_API = 'https://cs5610-node-server-web-dev-a9.herokuapp.com/api/tuits';
 
 
 export const findAllTuits = async () => {
